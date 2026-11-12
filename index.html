@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Política de Privacidade — FCA Launcher</title>
+<style>
+  :root { --bg:#f7f7fb; --card:#ffffff; --text:#1d1b2b; --muted:#5d5a72; --accent:#6c4cf1; --line:#e4e2ee; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#121019; --card:#1c1926; --text:#ece9f6; --muted:#a7a2bd; --accent:#a48bff; --line:#2e2a3d; }
+  }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--text); font:16px/1.65 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; }
+  main { max-width:820px; margin:0 auto; padding:32px 16px 64px; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:18px; padding:28px 24px; }
+  h1 { font-size:1.9rem; margin:0 0 4px; }
+  h2 { font-size:1.2rem; margin:32px 0 8px; color:var(--accent); }
+  h3 { font-size:1rem; margin:20px 0 6px; }
+  p, li { color:var(--text); }
+  .muted { color:var(--muted); font-size:.95rem; }
+  ul { padding-left:22px; }
+  li { margin:4px 0; }
+  table { width:100%; border-collapse:collapse; margin:12px 0; font-size:.95rem; }
+  th, td { text-align:left; padding:10px 8px; border-bottom:1px solid var(--line); vertical-align:top; }
+  th { color:var(--muted); font-weight:600; }
+  code { background:var(--line); padding:1px 6px; border-radius:6px; font-size:.9em; }
+  a { color:var(--accent); }
+  .summary { background:var(--bg); border:1px solid var(--line); border-radius:14px; padding:14px 18px; margin:18px 0; }
+  @media (max-width:560px) { th, td { display:block; padding:6px 0; } tr { display:block; padding:10px 0; border-bottom:1px solid var(--line); } th { display:none; } td { border:0; } }
+</style>
+</head>
+<body>
+<main>
+<div class="card">
+
+<h1>Política de Privacidade</h1>
+<p class="muted"><strong>FCA Launcher</strong> (com.fcadeveloper.fcalauncher)<br>
+Última atualização: 12 de novembro de 2026</p>
+
+<div class="summary">
+  <strong>Resumo:</strong> o FCA Launcher é uma tela inicial (launcher) para Android. Ele <strong>não tem servidores próprios,
+  não exibe anúncios, não usa ferramentas de análise ou rastreamento e não vende nem compartilha seus dados</strong>.
+  Tudo o que o app guarda (layout, configurações, wallpaper etc.) fica <strong>somente no seu aparelho</strong>.
+  A única comunicação externa é com a Google Play, para compras do Premium e atualizações do app.
+</div>
+
+<h2>1. Quem somos</h2>
+<p>O FCA Launcher é desenvolvido por <strong>[NOME DO DESENVOLVEDOR]</strong> ("nós", "desenvolvedor").
+Esta Política explica quais informações o aplicativo acessa, para que servem, onde ficam guardadas e quais são os seus direitos,
+em conformidade com a Lei Geral de Proteção de Dados (LGPD — Lei nº 13.709/2018) e com as políticas da Google Play.</p>
+
+<h2>2. Dados que coletamos</h2>
+<p><strong>Nós não coletamos dados pessoais.</strong> O FCA Launcher não envia nenhuma informação sua para servidores do desenvolvedor,
+pois eles não existem. Não pedimos cadastro, login, nome, e-mail, telefone ou localização.</p>
+
+<h2>3. Informações usadas apenas no seu aparelho</h2>
+<p>Para funcionar como tela inicial, o app usa as informações abaixo. Elas são processadas e guardadas <strong>localmente</strong>,
+no armazenamento privado do app, e não saem do aparelho (exceto conforme a seção 6, se você mesmo exportar um backup).</p>
+<table>
+  <tr><th>Informação</th><th>Para que serve</th></tr>
+  <tr><td>Lista de apps instalados (nome, ícone, se é app de sistema)</td><td>Mostrar os ícones na tela inicial, nas pastas e na busca. Uma cópia da lista é guardada para a tela abrir mais rápido.</td></tr>
+  <tr><td>Layout da tela inicial (páginas, posições, pastas, dock), apps ocultos, nomes personalizados e estilos de ícone</td><td>Manter a tela inicial do jeito que você organizou.</td></tr>
+  <tr><td>Contagem de aberturas de cada app pela tela inicial</td><td>Ordenar sugestões e resultados da busca. Fica apenas no aparelho e não usa permissão especial do sistema.</td></tr>
+  <tr><td>Configurações (grade, aparência, tema, widgets, bloqueios)</td><td>Aplicar suas preferências.</td></tr>
+  <tr><td>Imagem de wallpaper escolhida por você</td><td>Definir o papel de parede e gerar o efeito de vidro. O app só acessa a imagem que você seleciona no seletor de fotos do sistema ou envia por "Usar como".</td></tr>
+  <tr><td>Ícones em cache</td><td>Carregar a tela mais rápido. Arquivos temporários, apagados quando necessário.</td></tr>
+</table>
+
+<h2>4. Permissões e acessos</h2>
+<h3>Permissões declaradas pelo app</h3>
+<ul>
+  <li><code>SET_WALLPAPER</code>: definir o papel de parede quando você escolhe uma imagem ou aplica um tema.</li>
+  <li><code>REQUEST_DELETE_PACKAGES</code>: abrir a tela de desinstalação do Android quando você toca em "Desinstalar". A confirmação é sempre feita pelo sistema.</li>
+  <li><code>EXPAND_STATUS_BAR</code>: abrir a cortina de notificações com o gesto de deslizar para baixo.</li>
+</ul>
+<h3>Permissões adicionadas pelas bibliotecas da Google Play</h3>
+<ul>
+  <li><code>INTERNET</code> e <code>ACCESS_NETWORK_STATE</code>: usadas apenas pelas bibliotecas da Google Play (compras e atualizações). O app não acessa a internet para mais nada.</li>
+  <li><code>com.android.vending.BILLING</code>: compras do FCA Launcher Premium pela Google Play.</li>
+</ul>
+<h3>Acesso às notificações (opcional)</h3>
+<p>Se você permitir, o FCA Launcher usa o acesso às notificações do Android para:</p>
+<ul>
+  <li><strong>Pontos de notificação:</strong> contar quantas notificações cada app tem na barra de status e mostrar um ponto no ícone. <strong>Apenas a contagem por app é usada.</strong> O texto das notificações não é lido nem guardado.</li>
+  <li><strong>Widget "Tocando agora":</strong> mostrar a música em reprodução (título, artista, capa e app de origem) e permitir controlar a reprodução. A última música tocada fica guardada apenas no aparelho, para o widget continuar mostrando-a. Esse arquivo é excluído do backup do Android.</li>
+</ul>
+<p>Você pode retirar esse acesso a qualquer momento em <em>Configurações do Android › Notificações › Acesso a notificações</em>. O restante do app continua funcionando.</p>
+<h3>O que o app não acessa</h3>
+<p>O FCA Launcher <strong>não</strong> solicita acesso a localização, contatos, câmera, microfone, SMS, registro de chamadas, calendário ou arquivos e fotos em geral.
+O widget de calendário mostra apenas a data e, ao ser tocado, abre o app de calendário do aparelho, sem ler seus eventos.</p>
+
+<h2>5. Serviços de terceiros</h2>
+<ul>
+  <li><strong>Google Play Billing:</strong> processa as compras e assinaturas do Premium. Os dados de pagamento são tratados exclusivamente pelo Google; nós não recebemos dados do seu cartão ou da sua conta. Consulte a <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Política de Privacidade do Google</a>.</li>
+  <li><strong>Google Play (atualizações no app):</strong> verifica se há uma nova versão do FCA Launcher e permite instalá-la.</li>
+  <li><strong>Atalhos externos:</strong> a busca pode abrir a Google Play ou o Google com o termo digitado, e o gesto lateral pode abrir o feed do app Google. Isso só acontece quando você toca na opção. A partir daí, vale a política de privacidade do serviço aberto.</li>
+</ul>
+<p>O app não contém SDKs de publicidade, análise, rastreamento ou relatórios de falhas.</p>
+
+<h2>6. Backup</h2>
+<ul>
+  <li><strong>Backup manual:</strong> ao usar "Exportar backup", o app cria um arquivo (JSON) no local que você escolher, com layout, configurações, apps ocultos, estilos e nomes personalizados e, se você optar, o wallpaper. O arquivo fica sob seu controle e só é enviado a alguém se você o compartilhar.</li>
+  <li><strong>Backup automático do Android:</strong> se o backup do Google estiver ativado no seu aparelho, o Android pode salvar os dados do app na sua conta Google, conforme as políticas do Google. Você pode desativar isso nas configurações do Android.</li>
+</ul>
+
+<h2>7. Compartilhamento e venda de dados</h2>
+<p>Não vendemos, alugamos nem compartilhamos dados pessoais com terceiros, pois não os coletamos.</p>
+
+<h2>8. Retenção e exclusão</h2>
+<p>Os dados ficam no seu aparelho enquanto o app estiver instalado. Você pode apagá-los a qualquer momento em
+<em>Configurações do Android › Apps › FCA Launcher › Armazenamento › Limpar dados</em>, ou desinstalando o aplicativo.
+Assinaturas do Premium são gerenciadas e canceladas pela Google Play.</p>
+
+<h2>9. Segurança</h2>
+<p>As informações ficam no armazenamento privado do app, protegido pelo sistema Android e inacessível a outros apps.
+Como nada é enviado para servidores do desenvolvedor, não há base de dados nossa que possa ser exposta.</p>
+
+<h2>10. Crianças</h2>
+<p>O FCA Launcher não é direcionado a crianças menores de 13 anos e não coleta intencionalmente dados de crianças.</p>
+
+<h2>11. Seus direitos (LGPD)</h2>
+<p>Você tem direito a confirmação, acesso, correção, anonimização, portabilidade e eliminação de dados pessoais, além de revogar consentimentos.
+Como os dados ficam apenas no seu aparelho, você pode exercer a maior parte desses direitos diretamente pelo próprio app ou pelas configurações do Android.
+Para qualquer dúvida ou solicitação, entre em contato pelo e-mail abaixo.</p>
+
+<h2>12. Alterações nesta Política</h2>
+<p>Esta Política pode ser atualizada, por exemplo, quando novos recursos forem adicionados. A versão mais recente estará sempre nesta página, com a data de atualização no topo.</p>
+
+<h2>13. Contato</h2>
+<p>Desenvolvedor: <strong>[FCA Developer]</strong><br>
+E-mail: <a href="mailto:[E-MAIL DE CONTAT]">[devbrfelipe@gmail.com]</a></p>
+
+</div>
+</main>
+</body>
+</html>
